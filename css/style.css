@@ -1,0 +1,262 @@
+          
+/*---------------------------
+        Import Font
+---------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+
+body{
+  display: block;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+/*---------------------------
+            Style
+---------------------------*/
+a{
+  text-decoration:none;
+}
+.container{
+  margin:8% 5%;
+
+}
+.center{
+  text-align: center;
+}
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 53% 40%;
+  padding: 10px;
+  grid-column-gap: 60px;
+}
+.grid-item {
+  padding: 20px;
+}
+.ui-block{
+  background-color: #fff;
+  box-shadow: 0 10px 40px -10px rgba(2, 61, 121,.2);
+  padding: 5%;
+  border-radius: 5px;
+  border: 0.5px solid #c8d2d858;
+}
+.title{
+  font-size: 25px;
+  color: #445677;
+  font-family: 'Oleo Script', cursive;
+}
+
+#mainImage_create {
+  width: 100%;
+}
+#mainImage {
+  width: 45%;
+}
+.color-picker{
+  margin-left:26%;
+}
+.nav{ 
+  padding:0 2%; 
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  background-color: #fff;
+  box-shadow: 0 5px 10px 0 rgba(2, 61, 121, 0.07);
+}
+.footer{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  position: fixed;
+  z-index: 2;
+  bottom: 0;
+  background-color: rgb(232, 232, 232);
+}
+label{
+  margin-right: 10px;
+  margin-bottom:15%;
+}
+input,button,a{
+      -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.input{
+  margin:2% 0;
+  color: #6a6a6a;
+  width:95%;
+  padding: 10px;
+  border-radius: 5px;
+  border:1px solid #b0bec5;
+  font-size: 14px;
+}
+input:focus {
+  outline: 0 !important;
+  border-color: #007bff;
+}
+textarea:focus {
+  outline: 0 !important;
+  border-color: #007bff;
+}
+.btn{
+  padding: 10px;
+  color:white;
+  background-color: #6a6a6a;
+  border:none;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Merriweather', serif;
+}
+.btn-download{
+  width:60%;
+  background:linear-gradient(45deg, #E47B49 0%, #ea4c89 100%);
+  border-radius: 5rem;
+}
+.btn-download:hover{
+  opacity:0.8;
+}
+button:focus,
+button:active {
+  outline: none !important;
+  text-decoration: none;
+}
+.githubLink{
+  background:linear-gradient(45deg, #E47B49 0%, #ea4c89 100%);
+  background-clip:text;
+  text-align-last: transparent;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+}
+.githubIcon{
+  width:20px;
+  margin-right:7px;
+}
+.down-a{
+  text-decoration:none;
+  padding:10px 10%;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+  .btn-color{
+    margin: 10% 3%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container{
+    margin:15% 5%;
+  }
+  .nav{ 
+    text-align: center;
+    padding: 0;
+  }
+  #mainImage {
+    width: 90%;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    grid-column-gap: 50px;
+  }
+  .grid-item {
+    padding: 20px;
+  }
+  .btn-color{
+    border-radius: 2rem;
+    margin: 10% 3%;
+  }
+  .color-picker{
+    margin-left:33%;
+  }
+}
+@media screen and (max-width: 450px) {
+
+  .color-picker{
+    margin-left:15%;
+  }
+  
+  .container{
+    margin:20% 5%;
+  }
+  #mainImage {
+    width: 120%;
+  }
+  #title{
+    font-size: 16px;
+  }
+
+  .btn-color{
+    padding:5px 15px;
+    border-radius: 2rem;
+    margin: 10% 3%;
+  }
+  .input{
+    width:90%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .btn-color{
+    margin: 10% 2%;
+  }
+}
+
+/* modal */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 60px 35px;
+    border: none;
+    border-radius:5px;
+    width: 50%; /* Could be more or less, depending on screen size */
+    text-align:center;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    margin:-30px -15px;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
