@@ -11,7 +11,12 @@ body{
   margin: 0;
   font-family: 'Merriweather', serif;
 }
-
+.laptop{
+  display: block;
+}
+.mobile{
+  display: none;
+}
 /*---------------------------
             Style
 ---------------------------*/
@@ -146,6 +151,12 @@ button:active {
 .githubIcon{
   width:20px;
   margin-right:7px;
+  
+}
+.logo{
+  width:7rem;
+  margin-left:7px;
+  margin-top:12px;
 }
 .down-a{
   text-decoration:none;
@@ -168,6 +179,10 @@ button:active {
     text-align: center;
     padding: 0;
   }
+  .logo{
+    margin:auto;
+    margin-top:10px;
+  }
   #mainImage {
     width: 90%;
   }
@@ -189,7 +204,12 @@ button:active {
   }
 }
 @media screen and (max-width: 450px) {
-
+.laptop{
+  display: none;
+}
+.mobile{
+  display: block;
+}
   .color-picker{
     margin-left:15%;
   }
