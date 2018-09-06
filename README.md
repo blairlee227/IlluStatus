@@ -13,7 +13,7 @@ This is a HTTP Status svg animation that can change color and text arbitrarily, 
 http://www.illustatusdesign.com/
 
 ## Demo
-![image](https://github.com/blairlee227/IlluStatus/blob/master/src/demo_1.gif)
+![image](https://github.com/blairlee227/IlluStatus/blob/master/src/demo.gif)
 
 ## Related repo
 [iro.js](https://github.com/jaames/iro.js)
