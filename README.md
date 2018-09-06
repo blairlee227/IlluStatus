@@ -1,4 +1,3 @@
-# IlluStatus
 ![image](https://github.com/blairlee227/IlluStatus/blob/master/src/illustatus_logo.png)
 <p align=center>
 <a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
