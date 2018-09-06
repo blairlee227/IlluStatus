@@ -7,7 +7,7 @@
 </p>
 
 A HTTP Status svg animation that can change color and text arbitrarily.
-- Copy code or download svg for free.
+<br/>Copy code or download svg for free.
 
 ## Get Start
 http://www.illustatusdesign.com/
