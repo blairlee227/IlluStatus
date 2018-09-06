@@ -17,6 +17,3 @@ http://www.illustatusdesign.com/
 
 ## Related repo
 [iro.js](https://github.com/jaames/iro.js)
-
-## License
-MIT
