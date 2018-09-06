@@ -10,6 +10,8 @@ This is a HTTP Status svg animation that can change color and text arbitrarily, 
 ---
 ## Get Start
 http://www.illustatusdesign.com/
+
+## Demo
 ![image](https://github.com/blairlee227/IlluStatus/blob/master/demo_1.gif)
 
 ## Related repo
