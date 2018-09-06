@@ -6,10 +6,8 @@
 <image src="https://github.com/blairlee227/IlluStatus/blob/master/src/demo_2.gif">
 </p>
 
-
-
-
-This is a HTTP Status svg animation that can change color and text arbitrarily, and you can copy code or download svg for free.
+A HTTP Status svg animation that can change color and text arbitrarily.
+- Copy code or download svg for free.
 
 ## Get Start
 http://www.illustatusdesign.com/
