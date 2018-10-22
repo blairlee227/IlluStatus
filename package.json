@@ -1,0 +1,27 @@
+{
+  "name": "illustatus",
+  "version": "1.0.0",
+  "description": "![image](https://github.com/blairlee227/IlluStatus/blob/master/src/illustatus_logo.png) <p align=center> <a target=\"_blank\" href=\"https://opensource.org/licenses/MIT\" title=\"License: MIT\"><img src=\"https://img.shields.io/badge/License-MIT-blue.svg\"></a>   <a target=\"_blank\" href=\"https://github.com/ellerbrock/open-source-badges\" title=\"License: MIT\"><img src=\"https://badges.frapsoft.com/os/v2/open-source.svg?v=103\"></a> <image src=\"https://github.com/blairlee227/IlluStatus/blob/master/src/demo_2.gif\"> </p>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node web.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blairlee227/IlluStatus.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/blairlee227/IlluStatus/issues"
+  },
+  "homepage": "https://github.com/blairlee227/IlluStatus#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "fs-extra": "^7.0.0",
+    "url": "^0.11.0"
+  },
+  "engines": {
+    "node": "4.1.1"
+  }
+}
