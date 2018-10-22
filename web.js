@@ -11,7 +11,7 @@ express()
   .get('/', (req, res, next) => {
     let params = url.parse(req.url, true).query;
     let $ = cheerio.load(html);  
-    if (params.title != '') {
+    if ('title' in params) {
       $('#title').text(params.title);
     }
     if (params.fill != '') {
