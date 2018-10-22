@@ -14,10 +14,10 @@ express()
       $('#title').text(params.title);
     }
     if (params.hex != '') {
-      $('#c-1').css({ fill: params.hex })
-      $('#c-2').css({ fill: params.hex })
-      $('#c-3').css({ fill: params.hex })
-      $('#c-4').css({ fill: params.hex })
+      $('#c-1').css({ fill: '#'+params.hex })
+      $('#c-2').css({ fill: '#'+params.hex })
+      $('#c-3').css({ fill: '#'+params.hex })
+      $('#c-4').css({ fill: '#'+params.hex })
     }
     res.setHeader('Content-Type', 'image/svg+xml; charset=utf-8');
     res.send($('#svgForyou').html());
