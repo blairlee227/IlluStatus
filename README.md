@@ -8,9 +8,34 @@
 A HTTP Status svg animation that can change color and text arbitrarily.
 
 ## Get Start
+
+Add the following <img/> tag in your 404 page
+```html
+<img alt="404" 
+     src="https://illustatus.herokuapp.com/?title=Oops,%20Page%20not%20found&fill=#4f86ed"/>
+```
+
+#### supported parameters
+
+- `fill` - controls the color
+- `title` - controls the wording 
+
+
+and your'll get:
+
+<img alt="404" 
+         src="https://illustatus.herokuapp.com/?title=Oops,%20Page%20not%20found&fill=#4f86ed">
+
+
+---
+
+
+Or edit at the following URL
+
 http://www.illustatusdesign.com/
 
-## Demo
+like this:
+
 ![image](https://github.com/blairlee227/IlluStatus/blob/master/src/demo.gif)
 
 ## Related repo
