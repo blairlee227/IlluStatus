@@ -18,3 +18,8 @@ http://www.illustatusdesign.com/
 
 ## License
 MIT
+
+## Stargazers over time
+
+[![Stargazers over time](https://starcharts.herokuapp.com/blairlee227/IlluStatus.svg)](https://starcharts.herokuapp.com/blairlee227/IlluStatus)
+ 
