@@ -11,7 +11,7 @@
 Add the following <img/> tag in your 404 page
 ```html
 <img alt="404" 
-     src="https://illustatus.herokuapp.com/?title=Oops,%20Page%20not%20found&fill=#4f86ed"/>
+     src="https://illustatus.herokuapp.com/?title=Oops,%20Page%20not%20found&fill=%234f86ed"/>
 ```
 
 #### supported parameters
