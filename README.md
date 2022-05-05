@@ -31,7 +31,7 @@ and your'll get:
 
 Or edit at the following URL
 
-http://www.illustatusdesign.com/
+https://blairlee227.github.io/IlluStatus/
 
 like this:
 
@@ -42,8 +42,4 @@ like this:
 
 ## License
 MIT
-
-## Stargazers over time
-
-[![Stargazers over time](https://starcharts.herokuapp.com/blairlee227/IlluStatus.svg)](https://starcharts.herokuapp.com/blairlee227/IlluStatus)
  
